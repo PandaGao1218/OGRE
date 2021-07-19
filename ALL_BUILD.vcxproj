@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{434F85B3-ABA4-34FA-B571-243E46D59659}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\psc\ogre-1.9.1\OgreMain\include;D:\psc\ogre-1.9.1\build\include;FREETYPE_FT2BUILD_INCLUDE_DIR-NOTFOUND;D:\psc\ogre-1.9.1;D:\psc\ogre-1.9.1\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\psc\ogre-1.9.1\OgreMain\include;D:\psc\ogre-1.9.1\build\include;FREETYPE_FT2BUILD_INCLUDE_DIR-NOTFOUND;D:\psc\ogre-1.9.1;D:\psc\ogre-1.9.1\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\psc\ogre-1.9.1\OgreMain\include;D:\psc\ogre-1.9.1\build\include;FREETYPE_FT2BUILD_INCLUDE_DIR-NOTFOUND;D:\psc\ogre-1.9.1;D:\psc\ogre-1.9.1\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\psc\ogre-1.9.1\OgreMain\include;D:\psc\ogre-1.9.1\build\include;FREETYPE_FT2BUILD_INCLUDE_DIR-NOTFOUND;D:\psc\ogre-1.9.1;D:\psc\ogre-1.9.1\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\OgreMain\OgreMain.vcxproj">
+      <Project>{94FA5F67-FD0E-3BBD-AEFD-A93286367229}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj">
+      <Project>{811F94DC-1257-3845-9DF9-0E9DD49CF0BD}</Project>
+      <Name>OgreMeshUpgrader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\Components\Paging\OgrePaging.vcxproj">
+      <Project>{84461C9E-8DAC-31BE-9445-ED686C065E5A}</Project>
+      <Name>OgrePaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{678D1426-1A9A-3F5C-8D2C-E79CA5F452C5}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\Components\Terrain\OgreTerrain.vcxproj">
+      <Project>{DF4837C2-FF78-36C8-A7F4-AB291CC2B949}</Project>
+      <Name>OgreTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\Components\Volume\OgreVolume.vcxproj">
+      <Project>{FA52574A-8183-30F5-85D9-084EAE8C4DB9}</Project>
+      <Name>OgreVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\Tools\XMLConverter\OgreXMLConverter.vcxproj">
+      <Project>{2C177404-476F-38D3-97E3-992266712ECF}</Project>
+      <Name>OgreXMLConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj">
+      <Project>{D723C90B-32A5-3633-ABDA-92FC94FF95BF}</Project>
+      <Name>Plugin_BSPSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj">
+      <Project>{2D025FF8-DB6F-3E19-A527-F57828E52F88}</Project>
+      <Name>Plugin_OctreeSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj">
+      <Project>{27AEA8B4-B8FF-3AE2-938C-9F67A7A5C98D}</Project>
+      <Name>Plugin_OctreeZone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj">
+      <Project>{0EB688B9-8BF4-3446-B71C-EB3BACFE1759}</Project>
+      <Name>Plugin_PCZSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj">
+      <Project>{169753A3-77E3-3E5A-956B-6A455DB4D331}</Project>
+      <Name>Plugin_ParticleFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj">
+      <Project>{F629ED9E-703C-3520-AE59-0F1A54ECD338}</Project>
+      <Name>RenderSystem_Direct3D11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\RenderSystems\Direct3D9\RenderSystem_Direct3D9.vcxproj">
+      <Project>{5BF0133C-ACC5-37F7-BFA1-939F5901DE8F}</Project>
+      <Name>RenderSystem_Direct3D9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\psc\ogre-1.9.1\build\RenderSystems\GL\RenderSystem_GL.vcxproj">
+      <Project>{3D48EF8C-6013-3067-9D0C-00598144BA3D}</Project>
+      <Name>RenderSystem_GL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

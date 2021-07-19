@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctreeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctreePlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctreeSceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctreeSceneManagerDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\src\OgreOctreeSceneQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctreeCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctreePlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctreePrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctreeSceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\OctreeSceneManager\include\OgreOctreeSceneQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{489E59CA-875D-3CF2-8B3D-21EDF8A12FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C2FB6ED9-DB78-395F-BAFD-14E1906F30A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

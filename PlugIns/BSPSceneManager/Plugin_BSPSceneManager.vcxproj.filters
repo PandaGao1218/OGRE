@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreQuake3Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\src\OgreQuake3ShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspSceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspSceneManagerPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreBspSceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreQuake3Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreQuake3Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreQuake3ShaderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\psc\ogre-1.9.1\PlugIns\BSPSceneManager\include\OgreQuake3Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{489E59CA-875D-3CF2-8B3D-21EDF8A12FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C2FB6ED9-DB78-395F-BAFD-14E1906F30A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
